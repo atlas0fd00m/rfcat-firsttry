@@ -1,0 +1,18 @@
+
+create methods to get/set PA_POWER and assist in ASK/OOK modulation.
+create method setPktPreambleTX() and change g/setPktPQT to g/setPktPreambleRX(numTimesFour)
+
+continuous detection mode cleanup and enhancement
+
+CLEAN UP CODE/PROJECT  / UNBORK
+    make firmware CC25x1-friendly
+        consolidate chipcon code from cc1111/cc2531/cc2511 code
+
+rfcat_server
+    make this more complete and tested!
+
+all USB firmwares:
+    * add reset capability to EP0's commands
+    * add stall recovery to client and EP0 commands (explore this one...)
+
+documentation!  :) yes, i heard you.
